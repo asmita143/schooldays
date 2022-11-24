@@ -6,38 +6,37 @@
 
 main{
     display: flex;
-    background-color: aliceblue;
-    height: 100vh;
+    background-color: var(--themeColor);
+    min-height: 100vh;
     width:100%;
-    
-
  }
  #frontInformation{
     display:flex;
-    background-color:aquamarine ;
+    background-color:var(--themeColor) ;
     height:100%;
     width: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+    padding-right: 10px;
 
  }
  #loginSide{
     display: flex;
-    background-color: rgb(196, 146, 196);
+    background-color: lightcyan;
     height:100%;
     width: 30%;
     display: flex;
     justify-content: centre;
     flex-direction: column;
-    min-height: 100vh;
     align-items: center;
+    padding-top: 60px;
+    
     
  }
  .News{
     flex: 1;
-    background-color: blueviolet;
+    background-color: var(--themeColor);
     display: flex;
     padding: 0 6px;
     float: left;
@@ -45,10 +44,13 @@ main{
     flex-direction: column;
     min-width: 100%;
     justify-content: center;
+    min-height: 100vh;
 
  }
  div.gallery {
     border: 1px solid #ccc;
+    height: 100px;
+    width: 100px;
   }
   
   div.gallery:hover {
@@ -87,15 +89,15 @@ main{
  
  .Announcement{
     flex:1;
-    background-color: bisque;
+    background-color: var(--themeColor);
  }
  .Vacancy{
     flex:1;
-    background-color:chartreuse
+    background-color:var(--themeColor)
  }
  .About{
     flex:1;
-    background-color: pink;
+    background-color: var(--themeColor);
  }
  .appName{
     flex:1
